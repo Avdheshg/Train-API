@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%NAME%}</title>
+    
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        a {
+            text-decoration: none;
+        }
+        .container {
+            background-color: #FB8500;
+            padding: 3rem;
+            height: 90vh;
+        }
+        .card {
+            /* height: 85vh; */
+            padding: 1rem;
+            background-color: #023047;
+            color: #fff;
+            border-radius: 0.5rem;
+        }
+        .card p {
+            padding: 0.2rem 0;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <article class="card">
+            <h2>{%NAME%}</h2>
+            <p>Number : {%NUMBER%}</p>
+            <p>From : {%FROM%}</p>
+            <p>To : {%TO%}</p>
+            <p>Duration : {%DURATION%}</p>
+            <p>Arrival : {%ARRIVAL%}</p>
+            <p>Departure : {%DEPARTURE%}</p>
+            <hr>
+            <p>First AC : {%FIRST_AC%}</p>
+            <p>Second AC : {%SECOND_AC%}</p>
+            <p>Sleeper : {%SLEEPER%}</p>
+            <p>Third AC : {%THIRD_AC%}</p>
+            <p>Chair Car : {%CHAIR_CAR%}</p>
+            <hr>
+            <p>Return Trains : {%RETURN_TRAIN%}</p>
+            <p>Type : {%TYPE%}</p>
+            <p>Distance : {%DISTANCE%}</p>
+        </article>
+    </div>
+
+</body>
+</html>
+
+<!-- 
+    name   number     from_station_name   to_station_name     duration_m    arrival  departure
+
+    first_class      sleeper     second_ac    third_ac   chair_car      return_train       type    distance    
+
+
+ -->
